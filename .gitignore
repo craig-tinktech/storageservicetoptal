@@ -1,0 +1,20 @@
+# ignore Eclipse metadata (users should run `gradle eclipse` to generate)
+.classpath
+.project
+.settings
+
+# ignore Eclipse output dir
+bin
+
+# ignore Maven output dir
+target
+
+# ignore Maven output dir
+devLog
+.mvn/
+mvnw.cmd
+mvnw
+/build/
+
+#ignore gradle dir
+.gradle
